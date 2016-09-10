@@ -1,40 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
     <title>sky.GitHub.io by wangfakang</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
   </head>
+
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/wangfakang">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
+    <a id="forkme_banner" href="https://github.com/wangfakang">View on GitHub</a>
+    <div class="shell">
 
-    <div class="wrapper">
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>sky.GitHub.io</h1>
+            <h2>There is my blog and record about some study</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-      <section>
-        <div id="title">
-          <h1>sky.GitHub.io</h1>
-          <p>There is my blog and record about some study</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/wangfakang">wangfakang</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+      <div id="no-downloads">
+        <span class="inner">
+        </span>
+      </div>
 
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
         <h1>
 <a id="name" class="anchor" href="#name" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Name</h1>
 
@@ -233,6 +243,7 @@
 <li>
 <a href="http://wangfakang.github.io/net5">TFO(tcp fast open)的简单解析</a><br>
 </li>
+<li><a href="http://wangfakang.github.io/net6">三次握手中最后一次ack丢失原因</a></li>
 </ul>
 
 <p><a href="#table-of-contents">Back to TOC</a></p>
@@ -347,8 +358,20 @@
 <p><a href="#table-of-contents">Back to TOC</a></p>
       </section>
 
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>Projects by <a href="https://github.com/wangfakang">wangfakang</a> can be found on <a href="https://github.com/wangfakang">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
