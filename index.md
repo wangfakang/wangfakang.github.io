@@ -179,7 +179,7 @@ Lisp
 
 Python
 -------------
-* [先占个坑,后续补上](http://wangfakang.github.io/linux)
+* [Python的基础问题](https://wangfakang.github.io/py0/)
 
 [Back to TOC](#table-of-contents)
 
