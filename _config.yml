@@ -2,7 +2,7 @@ title: sky.GitHub.io
 description: There is my blog and record about some study
 google_analytics: sky blog  wangfakang  nginx consul docker lua golang c  http2 stl
 show_downloads: true
-theme: jekyll-theme-merlot
+theme: jekyll-theme-minimal
 
 gems:
   - jekyll-mentions
