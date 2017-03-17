@@ -60,6 +60,8 @@ Nginx
 * [Tengine之系统保护sysguard模块](http://wangfakang.github.io/sky24)     
 * [Nginx之变量缓存的坑](http://wangfakang.github.io/sky25)     
 * [Nginx集群通信](http://wangfakang.github.io/sky26)    
+* [Nginx之性能优化](http://wangfakang.github.io/sky27)   
+
      
 
 [Back to TOC](#table-of-contents)
