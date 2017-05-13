@@ -61,6 +61,7 @@ Nginx
 * [Nginx之变量缓存的坑](http://wangfakang.github.io/sky25)     
 * [Nginx集群通信](http://wangfakang.github.io/sky26)    
 * [Nginx之性能优化](http://wangfakang.github.io/sky27)   
+* [Nginx模块编写使用未申明的全局函数的坑](http://wangfakang.github.io/sky28) 
 
      
 
