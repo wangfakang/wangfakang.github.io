@@ -1,7 +1,7 @@
 Name
 ====
 ## 这是一个相互学习的地方, 欢迎大家多多指导　:kissing_heart:　   　
-## It's a OpenStudy community, wellcome pull request  :kissing_heart:       
+## It's a OpenStudy community, welcome pull request  :kissing_heart:       
 
 
 Table of Contents
